@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner-bg{
+    background-image: url(../public/banner.png);
+}
