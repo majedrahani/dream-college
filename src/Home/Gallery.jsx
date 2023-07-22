@@ -28,16 +28,16 @@ const Gallery = () => {
 
             <div className='mx-20'>
                 <div className=' lg:grid grid-cols-3 gap-2 mt-10'>
-                    <img src={gallery1} alt="" />
-                    <img src={gallery2} alt="" />
-                    <img src={gallery3} alt="" />
+                    <img  src={gallery1} className='hover:p-5 hover:border-2 hover:border-[#5800FF]' />
+                    <img  src={gallery2} className='hover:p-5 hover:border-2 hover:border-[#5800FF]' />
+                    <img  src={gallery3} className='hover:p-5 hover:border-2 hover:border-[#5800FF]' />
                 </div>
                 <div className=' lg:grid grid-cols-5 gap-2 mt-2'>
-                    <img src={gallery4} alt="" />
-                    <img src={gallery5} alt="" />
-                    <img src={gallery6} alt="" />
-                    <img src={gallery7} alt="" />
-                    <img src={gallery8} alt="" />
+                    <img src={gallery4} className='hover:p-3 hover:border-2 hover:border-[#5800FF]' />
+                    <img src={gallery5} className='hover:p-3 hover:border-2 hover:border-[#5800FF]' />
+                    <img src={gallery6} className='hover:p-3 hover:border-2 hover:border-[#5800FF]' />
+                    <img src={gallery7} className='hover:p-3 hover:border-2 hover:border-[#5800FF]' />
+                    <img src={gallery8} className='hover:p-3 hover:border-2 hover:border-[#5800FF]' />
                 </div>
             </div>
         </div>

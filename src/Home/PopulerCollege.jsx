@@ -5,7 +5,7 @@ const PopulerCollege = () => {
     const [colleges, setColleges] = useState();
 
     useEffect(() => {
-        fetch('../../public/college.json')
+        fetch('.././public/college.json')
             .then(res => res.json())
             .then(data => setColleges(data))
     }, [])
