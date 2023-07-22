@@ -2,13 +2,17 @@ import React from 'react';
 import student from '../assets/student.png'
 import { TypeAnimation } from 'react-type-animation';
 import Navber from './Navber';
+import Search from './Search';
 
 const Banner = () => {
     return (
         <div>
             <div className='w-full banner-bg bg-fixed'>
-                <div className='mx-20 py-5'>
+                <div className='mx-20 py-5 '>
                     <Navber></Navber>
+                    <div className='py-4 flex justify-end'>
+                        <Search></Search>
+                    </div>
                 </div>
                 <div className=' md:flex justify-between px-20'>
                     <div className='my-auto w-1/2'>
