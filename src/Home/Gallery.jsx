@@ -28,9 +28,9 @@ const Gallery = () => {
 
             <div className='mx-20'>
                 <div className=' lg:grid grid-cols-3 gap-2 mt-10'>
-                    <img  src={gallery1} className='hover:p-5 hover:border-2 hover:border-[#5800FF]' />
-                    <img  src={gallery2} className='hover:p-5 hover:border-2 hover:border-[#5800FF]' />
-                    <img  src={gallery3} className='hover:p-5 hover:border-2 hover:border-[#5800FF]' />
+                    <img  src={gallery1} className='hover:p-5 hover:border-2 hover:border-[#5800FF] hover:bg-[#72FFFF]' />
+                    <img  src={gallery2} className='hover:p-5 hover:border-2 hover:border-[#5800FF] hover:bg-[#72FFFF]' />
+                    <img  src={gallery3} className='hover:p-5 hover:border-2 hover:border-[#5800FF] hover:bg-[#72FFFF]' />
                 </div>
                 <div className=' lg:grid grid-cols-5 gap-2 mt-2'>
                     <img src={gallery4} className='hover:p-3 hover:border-2 hover:border-[#5800FF]' />
