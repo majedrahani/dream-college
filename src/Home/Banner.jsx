@@ -34,7 +34,7 @@ const Banner = () => {
                             repeat={Infinity}
                         />
                         <p className=' text-white text-[14px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi eos labore quo cumque consequatur dolores, est beatae vitae voluptates saepe!</p>
-                        <button className=' bg-[#00D7FF] mt-5 px-7 py-4 text-black' >Read More</button>
+                        <button className=' bg-[#5800FF] mt-5 px-7 py-4 text-white' >Read More</button>
                     </div>
                     <div>
                         <img src={student} alt="" className='w-[400px]' />

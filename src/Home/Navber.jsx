@@ -4,11 +4,11 @@ import logo from '../assets/collage-logo.png'
 
 const Navber = () => {
     const naveItem = <>
-        <div className=' lg:flex text-gray-900 font-light'>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/'>Colleges</Link></li>
-            <li><Link to='/'>Admission</Link></li>
-            <li><Link to='/'>My College</Link></li>
+        <div className=' lg:flex text-gray-900  font-light'>
+            <li className='hover:bg-[#5800FF] hover:text-white py-5 px-3'><Link to='/'>Home</Link></li>
+            <li className='hover:bg-[#5800FF] hover:text-white py-5 px-3'><Link to='/'>Colleges</Link></li>
+            <li className='hover:bg-[#5800FF] hover:text-white py-5 px-3'><Link to='/'>Admission</Link></li>
+            <li className='hover:bg-[#5800FF] hover:text-white py-5 px-3'><Link to='/'>My College</Link></li>
         </div>
     </>
     return (
@@ -19,7 +19,7 @@ const Navber = () => {
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-none  w-52">
                             {naveItem}
                         </ul>
                     </div>
@@ -28,7 +28,7 @@ const Navber = () => {
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className=" px-1">
                         {naveItem}
                     </ul>
                 </div>

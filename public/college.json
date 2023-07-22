@@ -1,0 +1,82 @@
+[
+    {
+      "collegeName": "University of XYZ",
+      "image": "https://i.ibb.co/FxfYZvH/10.png",
+      "admissionDates": "August 2023",
+      "events": "Annual fest in October",
+      "researchHistory": "Founded in 1950",
+      "sports": "Basketball, Soccer"
+    },
+    {
+      "collegeName": "ABC College",
+      "image": "https://i.ibb.co/dQnYcTx/9.png",
+      "admissionDates": "September 2023",
+      "events": "Cultural week in November",
+      "researchHistory": "Established in 1975",
+      "sports": "Cricket, Tennis"
+    },
+    {
+      "collegeName": "XYZ Institute of Technology",
+      "image": "https://i.ibb.co/twfNNVf/8.png",
+      "admissionDates": "July 2023",
+      "events": "Tech Summit in December",
+      "researchHistory": "Innovation hub since 1985",
+      "sports": "Badminton, Table Tennis"
+    },
+    {
+      "collegeName": "ABC Medical College",
+      "image": "https://i.ibb.co/7WDQLyR/7.png",
+      "admissionDates": "October 2023",
+      "events": "Medical conference in April",
+      "researchHistory": "Pioneering medical research since 1960",
+      "sports": "Swimming, Volleyball"
+    },
+    {
+      "collegeName": "University of Arts",
+      "image": "https://i.ibb.co/x2q3txW/6.png",
+      "admissionDates": "June 2023",
+      "events": "Art exhibition in May",
+      "researchHistory": "Promoting creativity since 1948",
+      "sports": "Gymnastics, Dance"
+    },
+    {
+      "collegeName": "ABC Business School",
+      "image": "https://i.ibb.co/VBgC2jh/5.png",
+      "admissionDates": "January 2023",
+      "events": "Entrepreneurship summit in March",
+      "researchHistory": "Fostering business leaders since 1972",
+      "sports": "Golf, Chess"
+    },
+    {
+      "collegeName": "XYZ Law School",
+      "image": "https://i.ibb.co/mBCsLzq/4.png",
+      "admissionDates": "February 2023",
+      "events": "Legal symposium in April",
+      "researchHistory": "Defending justice since 1955",
+      "sports": "Football, Rugby"
+    },
+    {
+      "collegeName": "ABC Engineering College",
+      "image": "https://i.ibb.co/5cNZh89/3.png",
+      "admissionDates": "May 2023",
+      "events": "Tech Expo in July",
+      "researchHistory": "Engineering excellence since 1967",
+      "sports": "Hockey, Athletics"
+    },
+    {
+      "collegeName": "XYZ Design Institute",
+      "image": "https://i.ibb.co/jHQDwjx/2.png",
+      "admissionDates": "March 2023",
+      "events": "Design showcase in September",
+      "researchHistory": "Shaping creativity since 1982",
+      "sports": "Cycling, Rock Climbing"
+    },
+    {
+      "collegeName": "ABC Science University",
+      "image": "https://i.ibb.co/2yMBj0C/1.png",
+      "admissionDates": "April 2023",
+      "events": "Science fair in October",
+      "researchHistory": "Advancing knowledge since 1958",
+      "sports": "Track and Field, Archery"
+    }
+  ]
