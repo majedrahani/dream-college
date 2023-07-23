@@ -16,7 +16,7 @@ const Navber = () => {
     const naveItem = <>
         <div className=' lg:flex text-gray-900  font-light'>
             <li className='hover:bg-[#5800FF] hover:text-white py-5 px-3'><Link to='/'>Home</Link></li>
-            <li className='hover:bg-[#5800FF] hover:text-white py-5 px-3'><Link to='/'>Colleges</Link></li>
+            <li className='hover:bg-[#5800FF] hover:text-white py-5 px-3'><Link to='/collegesPage'>Colleges</Link></li>
             <li className='hover:bg-[#5800FF] hover:text-white py-5 px-3'><Link to='/'>Admission</Link></li>
             <li className='hover:bg-[#5800FF] hover:text-white py-5 px-3'><Link to='/'>My College</Link></li>
         </div>
