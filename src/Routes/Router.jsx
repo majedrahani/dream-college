@@ -35,7 +35,7 @@ const router = createBrowserRouter([
             {
                 path: '/colleges/:id',
                 element: <CollegeDetail></CollegeDetail>,
-                loader: ({params}) => fetch(`http://localhost:5000/colleges/${params.id}`)
+                loader: ({params}) => fetch(`https://dream-college-server.vercel.app/colleges/${params.id}`)
             }
         ]
     },

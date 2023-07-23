@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import PopularCart from './PopularCart';
+import { Link } from 'react-router-dom';
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const PopulerCollege = () => {
     const [colleges, setColleges] = useState();
 
     useEffect(() => {
-        fetch('http://localhost:5000/colleges')
+        fetch('https://dream-college-server.vercel.app/colleges')
             .then(res => res.json())
             .then(data => setColleges(data))
     }, [])
@@ -36,6 +38,9 @@ const PopulerCollege = () => {
                     college={college}
                     ></PopularCart>)
                 }
+            </div>
+            <div className='w-full flex justify-center mb-20 mt-5 '>
+                <Link to="/collegesPage" className=' px-8 py-2 border  border-[#5800FF] text-[#5800FF] uppercase font-bold hover:bg-[#5800FF] hover:text-white flex gap-4'>View More <AiOutlineArrowRight className='my-auto'/></Link>
             </div>
 
         </div>
