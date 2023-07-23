@@ -1,82 +1,123 @@
 [
-    {
-      "collegeName": "University of XYZ",
-      "image": "https://i.ibb.co/FxfYZvH/10.png",
-      "admissionDates": "August 2023",
-      "events": "Annual fest in October",
-      "researchHistory": "Founded in 1950",
-      "sports": "Basketball, Soccer"
-    },
-    {
-      "collegeName": "ABC College",
-      "image": "https://i.ibb.co/dQnYcTx/9.png",
-      "admissionDates": "September 2023",
-      "events": "Cultural week in November",
-      "researchHistory": "Established in 1975",
-      "sports": "Cricket, Tennis"
-    },
-    {
-      "collegeName": "XYZ Institute of Technology",
-      "image": "https://i.ibb.co/twfNNVf/8.png",
-      "admissionDates": "July 2023",
-      "events": "Tech Summit in December",
-      "researchHistory": "Innovation hub since 1985",
-      "sports": "Badminton, Table Tennis"
-    },
-    {
-      "collegeName": "ABC Medical College",
-      "image": "https://i.ibb.co/7WDQLyR/7.png",
-      "admissionDates": "October 2023",
-      "events": "Medical conference in April",
-      "researchHistory": "Pioneering medical research since 1960",
-      "sports": "Swimming, Volleyball"
-    },
-    {
-      "collegeName": "University of Arts",
-      "image": "https://i.ibb.co/x2q3txW/6.png",
-      "admissionDates": "June 2023",
-      "events": "Art exhibition in May",
-      "researchHistory": "Promoting creativity since 1948",
-      "sports": "Gymnastics, Dance"
-    },
-    {
-      "collegeName": "ABC Business School",
-      "image": "https://i.ibb.co/VBgC2jh/5.png",
-      "admissionDates": "January 2023",
-      "events": "Entrepreneurship summit in March",
-      "researchHistory": "Fostering business leaders since 1972",
-      "sports": "Golf, Chess"
-    },
-    {
-      "collegeName": "XYZ Law School",
-      "image": "https://i.ibb.co/mBCsLzq/4.png",
-      "admissionDates": "February 2023",
-      "events": "Legal symposium in April",
-      "researchHistory": "Defending justice since 1955",
-      "sports": "Football, Rugby"
-    },
-    {
-      "collegeName": "ABC Engineering College",
-      "image": "https://i.ibb.co/5cNZh89/3.png",
-      "admissionDates": "May 2023",
-      "events": "Tech Expo in July",
-      "researchHistory": "Engineering excellence since 1967",
-      "sports": "Hockey, Athletics"
-    },
-    {
-      "collegeName": "XYZ Design Institute",
-      "image": "https://i.ibb.co/jHQDwjx/2.png",
-      "admissionDates": "March 2023",
-      "events": "Design showcase in September",
-      "researchHistory": "Shaping creativity since 1982",
-      "sports": "Cycling, Rock Climbing"
-    },
-    {
-      "collegeName": "ABC Science University",
-      "image": "https://i.ibb.co/2yMBj0C/1.png",
-      "admissionDates": "April 2023",
-      "events": "Science fair in October",
-      "researchHistory": "Advancing knowledge since 1958",
-      "sports": "Track and Field, Archery"
-    }
-  ]
+  {
+    "collegeName": "University of XYZ",
+    "image": "https://i.ibb.co/FxfYZvH/10.png",
+    "admissionDates": "August 2023",
+    "events": "Annual fest in October",
+    "researchHistory": "Founded in 1950",
+    "sports": "Basketball, Soccer",
+    "admissionProcess": "The admission process at the University of XYZ is highly competitive, considering both academic achievements and extracurricular activities. Prospective students are encouraged to apply early and submit all required documents.",
+    "eventsDetails": "The annual fest at the University of XYZ is a week-long celebration featuring various cultural and entertainment events. Students showcase their talents in music, dance, and drama, attracting participants from across the country.",
+    "researchWorks": "The University of XYZ takes pride in its rich research history. It has been a hub of groundbreaking discoveries and innovations in various fields, contributing significantly to societal progress.",
+    "sportsCategories": "The university encourages a healthy and active lifestyle through sports. It offers a range of sports categories, including basketball and soccer, with excellent facilities and coaching staff to support students' athletic pursuits."
+  },
+  {
+    "collegeName": "ABC College",
+    "image": "https://i.ibb.co/dQnYcTx/9.png",
+    "admissionDates": "September 2023",
+    "events": "Cultural week in November",
+    "researchHistory": "Established in 1975",
+    "sports": "Cricket, Tennis",
+    "admissionProcess": "ABC College follows a rigorous admission process, assessing academic performance, personal interviews, and extracurricular achievements. Aspiring students must demonstrate a passion for learning and growth.",
+    "eventsDetails": "The cultural week at ABC College is a vibrant extravaganza celebrating diversity and creativity. Students organize art exhibitions, dance performances, and theatrical plays, making it a memorable event.",
+    "researchWorks": "Since its establishment in 1975, ABC College has been committed to fostering research and intellectual curiosity. Faculty and students actively engage in research projects across various disciplines.",
+    "sportsCategories": "Sports play a vital role in the holistic development of students at ABC College. Cricket and tennis are among the popular sports categories available, with state-of-the-art facilities and expert coaching."
+  },
+  {
+    "collegeName": "XYZ Institute of Technology",
+    "image": "https://i.ibb.co/twfNNVf/8.png",
+    "admissionDates": "July 2023",
+    "events": "Tech Summit in December",
+    "researchHistory": "Innovation hub since 1985",
+    "sports": "Badminton, Table Tennis",
+    "admissionProcess": "Admission to XYZ Institute of Technology is highly competitive, considering academic performance, entrance exams, and interviews. Prospective students with a passion for technology and innovation are preferred.",
+    "eventsDetails": "The Tech Summit at XYZ Institute of Technology is an annual extravaganza featuring tech enthusiasts, industry experts, and startups. The event includes workshops, panel discussions, and networking opportunities.",
+    "researchWorks": "As an innovation hub since 1985, XYZ Institute of Technology has been at the forefront of technological advancements. Faculty and students actively contribute to cutting-edge research and development.",
+    "sportsCategories": "XYZ Institute of Technology promotes a healthy work-life balance through sports. Students can participate in badminton and table tennis, helping them relax and stay physically fit amidst their academic pursuits."
+  },
+  {
+    "collegeName": "ABC Medical College",
+    "image": "https://i.ibb.co/7WDQLyR/7.png",
+    "admissionDates": "October 2023",
+    "events": "Medical conference in April",
+    "researchHistory": "Pioneering medical research since 1960",
+    "sports": "Swimming, Volleyball",
+    "admissionProcess": "The admission process at ABC Medical College is selective, with an emphasis on academic excellence, relevant experience, and commitment to the medical profession. Aspiring medical professionals are encouraged to showcase their dedication.",
+    "eventsDetails": "The medical conference at ABC Medical College is a prestigious event, attracting medical experts and researchers from across the globe. The conference highlights the latest advancements in the medical field.",
+    "researchWorks": "ABC Medical College has a rich history of pioneering medical research. It has been a driving force behind groundbreaking medical discoveries and advancements in healthcare since 1960.",
+    "sportsCategories": "ABC Medical College promotes physical well-being among students through sports. Swimming and volleyball are among the popular sports categories, providing opportunities for students to maintain a healthy lifestyle."
+  },
+  {
+    "collegeName": "University of Arts",
+    "image": "https://i.ibb.co/x2q3txW/6.png",
+    "admissionDates": "June 2023",
+    "events": "Art exhibition in May",
+    "researchHistory": "Promoting creativity since 1948",
+    "sports": "Gymnastics, Dance",
+    "admissionProcess": "The University of Arts seeks to enroll passionate and creative individuals who exhibit a strong commitment to the arts. The admission process includes portfolio reviews and interviews.",
+    "eventsDetails": "The art exhibition at the University of Arts is a captivating display of students' artistic expressions. The event includes paintings, sculptures, and multimedia installations, inspiring creativity among attendees.",
+    "researchWorks": "Since its inception in 1948, the University of Arts has played a pivotal role in promoting creativity and artistic excellence. Faculty and students actively engage in research projects exploring various art forms.",
+    "sportsCategories": "The University of Arts encourages students to explore their physical potential through sports. Gymnastics and dance provide artistic outlets for students to stay active and express themselves creatively."
+  },
+  {
+    "collegeName": "ABC Business School",
+    "image": "https://i.ibb.co/VBgC2jh/5.png",
+    "admissionDates": "January 2023",
+    "events": "Entrepreneurship summit in March",
+    "researchHistory": "Fostering business leaders since 1972",
+    "sports": "Golf, Chess",
+    "admissionProcess": "ABC Business School looks for visionary and innovative minds during the admission process. Aspiring entrepreneurs with strong leadership skills and business acumen are preferred.",
+    "eventsDetails": "The entrepreneurship summit at ABC Business School is a platform for aspiring business leaders to interact with successful entrepreneurs, attend workshops, and pitch their startup ideas to potential investors.",
+    "researchWorks": "Since 1972, ABC Business School has been fostering business leaders with entrepreneurial zeal. The faculty and students are actively involved in research projects focusing on various aspects of business and management.",
+    "sportsCategories": "ABC Business School recognizes the importance of balance between academics and sports. Students can engage in golf and chess, stimulating strategic thinking and relaxation amidst their business studies."
+  },
+  {
+    "collegeName": "XYZ Law School",
+    "image": "https://i.ibb.co/mBCsLzq/4.png",
+    "admissionDates": "February 2023",
+    "events": "Legal symposium in April",
+    "researchHistory": "Defending justice since 1955",
+    "sports": "Football, Rugby",
+    "admissionProcess": "XYZ Law School follows a meticulous admission process, emphasizing academic performance, law entrance exams, and interviews. Aspiring law students must demonstrate a passion for justice and the legal system.",
+    "eventsDetails": "The legal symposium at XYZ Law School is a prestigious event, attracting legal experts and scholars from around the world. It provides a platform for discussing critical legal issues and fostering legal advocacy.",
+    "researchWorks": "Since 1955, XYZ Law School has been at the forefront of defending justice and promoting the rule of law. Faculty and students actively engage in research projects related to various legal disciplines.",
+    "sportsCategories": "XYZ Law School recognizes the significance of physical fitness for aspiring legal professionals. Football and rugby are among the sports categories available, providing students with opportunities to stay fit and build team skills."
+  },
+  {
+    "collegeName": "ABC Engineering College",
+    "image": "https://i.ibb.co/5cNZh89/3.png",
+    "admissionDates": "May 2023",
+    "events": "Tech Expo in July",
+    "researchHistory": "Engineering excellence since 1967",
+    "sports": "Hockey, Athletics",
+    "admissionProcess": "ABC Engineering College has a competitive admission process, considering academic performance, engineering entrance exams, and interviews. Aspiring engineers with a passion for innovation are preferred.",
+    "eventsDetails": "The Tech Expo at ABC Engineering College is a grand event showcasing the latest engineering projects and innovations. Students present their ideas and inventions, attracting industry leaders and investors.",
+    "researchWorks": "Since 1967, ABC Engineering College has been synonymous with engineering excellence. Faculty and students are actively involved in research projects that contribute to technological advancements and societal progress.",
+    "sportsCategories": "ABC Engineering College promotes a balanced lifestyle by offering sports options such as hockey and athletics. Students can engage in these activities to stay physically fit while pursuing their engineering studies."
+  },
+  {
+    "collegeName": "XYZ Design Institute",
+    "image": "https://i.ibb.co/jHQDwjx/2.png",
+    "admissionDates": "March 2023",
+    "events": "Design showcase in September",
+    "researchHistory": "Shaping creativity since 1982",
+    "sports": "Cycling, Rock Climbing",
+    "admissionProcess": "Admission to XYZ Design Institute seeks creative individuals with a flair for design and aesthetics. Aspiring designers undergo a comprehensive evaluation of their design portfolios and interviews.",
+    "eventsDetails": "The design showcase at XYZ Design Institute is a visual treat, displaying the innovative works of students. The event celebrates various design disciplines and serves as a platform for networking with industry professionals.",
+    "researchWorks": "Since 1982, XYZ Design Institute has played a pivotal role in shaping creativity across design fields. Faculty and students actively engage in research projects exploring cutting-edge design methodologies.",
+    "sportsCategories": "XYZ Design Institute recognizes the importance of outdoor activities for nurturing creative minds. Cycling and rock climbing are among the sports activities available, providing students with a refreshing break from their design pursuits."
+  },
+  {
+    "collegeName": "ABC Science University",
+    "image": "https://i.ibb.co/2yMBj0C/1.png",
+    "admissionDates": "April 2023",
+    "events": "Science fair in October",
+    "researchHistory": "Advancing knowledge since 1958",
+    "sports": "Track and Field, Archery",
+    "admissionProcess": "ABC Science University admits students with a strong passion for scientific exploration and discovery. The admission process involves assessing academic achievements, science entrance exams, and interviews.",
+    "eventsDetails": "The science fair at ABC Science University is a platform for students to present their research findings and innovative scientific projects. It attracts scientists, researchers, and science enthusiasts from diverse backgrounds.",
+    "researchWorks": "Since 1958, ABC Science University has been dedicated to advancing knowledge and scientific research. Faculty and students actively contribute to significant scientific breakthroughs in various fields.",
+    "sportsCategories": "ABC Science University promotes physical well-being among science students through sports. Track and field and archery provide students with opportunities to maintain a healthy lifestyle while exploring the world of science."
+  }
+]
+  
