@@ -1,19 +1,58 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../Provider/AuthProvider';
 
 const SignUp = () => {
+    const { createUser } = useContext(AuthContext)
+
+    const handleRegister = (event) => {
+        event.preventDefault();
+
+        const form = event.target;
+        const name = form.name.value;
+        
+        const email = form.email.value;
+        const password = form.password.value;
+
+        console.log(name, email, password);
+
+        createUser(email, password)
+        .then(result => {
+            const loggedUser = result.user;
+            console.log(loggedUser);
+            return handleUserProfile(result.user, name)
+        })
+        .catch(error => {
+            console.log(error.message);
+        })
+
+
+    }
+
+    const handleUserProfile = (user, name) =>{
+        updateProfile(user,{
+            displayName : name,
+            
+        })
+        .then(()=>{
+            console.log('updated user');
+        })
+        .catch(error => {
+            console.log(error.message);
+        } )
+    }
     return (
         <div className="hero min-h-screen login-bg ">
 
 
             <div className="card flex-shrink-0 w-full rounded-none max-w-sm shadow-xl bg-white ">
                 <div className="card-body">
-                    <form >
+                    <form onSubmit={handleRegister}>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Name</span>
                             </label>
-                            <input type="text" name='Name' placeholder="name" className="input input-bordered" />
+                            <input type="text" name='name' placeholder="name" className="input input-bordered" />
                         </div>
                         <div className="form-control">
                             <label className="label">

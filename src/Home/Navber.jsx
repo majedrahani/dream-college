@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/collage-logo.png'
+import { AuthContext } from '../Provider/AuthProvider';
+import { FcApprove } from "react-icons/fc";
 
 const Navber = () => {
+    const { user, logOut } = useContext(AuthContext);
+
+    const handleLogOut = () => {
+        logOut()
+            .then()
+            .catch(error => console.log(error))
+    }
+
     const naveItem = <>
         <div className=' lg:flex text-gray-900  font-light'>
             <li className='hover:bg-[#5800FF] hover:text-white py-5 px-3'><Link to='/'>Home</Link></li>
@@ -33,7 +43,16 @@ const Navber = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link className='bg-[#5800FF] text-white px-6 py-3' to="/login">Login</Link>
+                    {
+                        user?.displayName && 
+                        <div className=' mr-2 bg-[#00D7FF] hover:bg-[#5800FF] text-gray-600  hover:text-white px-6 py-3 uppercase btn rounded-none'>
+                        <FcApprove className='text-2xl'/> {user?.displayName}</div>
+                    }
+                    {
+                        user ?
+                            <Link onClick={handleLogOut} className='bg-[#5800FF] text-white px-6 py-3'>Logout</Link> :
+                            <Link className='bg-[#5800FF] text-white px-6 py-3' to="/login">Login</Link>
+                    }
                 </div>
             </div>
         </div>

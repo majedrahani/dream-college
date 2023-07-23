@@ -1,14 +1,50 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../Provider/AuthProvider';
+import { FcGoogle } from "react-icons/fc";
 
 const Login = () => {
+    const {googleSignIn , signIn} = useContext(AuthContext)
+
+    const handleGoogleLogin = () =>{
+        googleSignIn()
+        .then(result => {
+            const loggedUser = result.user;
+            console.log(loggedUser);
+            
+        } )
+        .catch(error => {
+            console.log(error);
+        })
+    }
+
+    const handleSignIn = (event) =>{
+        event.preventDefault();
+
+        const form = event.target;
+        const email = form.email.value;
+        const password = form.password.value;
+
+        console.log(email, password);
+
+        signIn(email, password)
+        .then(result => {
+            const loggedInUser = result.user;
+            console.log(loggedInUser);
+            navigate(from, {replace: true})
+        })
+        .catch(error => {
+            console.log(error.message);
+        })
+
+    }
     return (
         <div className="hero min-h-screen login-bg ">
 
 
             <div className="card flex-shrink-0 w-full rounded-none max-w-sm shadow-xl bg-white ">
                 <div className="card-body">
-                    <form >
+                    <form onSubmit={handleSignIn}>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Email</span>
@@ -41,7 +77,7 @@ const Login = () => {
 
                     <div className="form-control mt-6">
 
-                        <button  className="bg-[#00D7FF] w-full py-3 text-black font-bold">Sign In With Google</button>
+                        <button onClick={handleGoogleLogin} className="bg-[#00D7FF] w-full py-3 text-gray-600 font-bold btn"><FcGoogle className=' text-2xl'/> Google Sing In</button>
                     </div>
                 </div>
             </div>
