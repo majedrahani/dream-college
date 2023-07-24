@@ -12,7 +12,7 @@ const Colleges = () => {
     },[])
     return (
         <div>
-            <div className='colleges-bg w-full bg-fixed'>
+            <div className='banner-bg w-full bg-fixed'>
                 <h2 className=' text-2xl font-bold text-white text-center p-20'>COLLEGES</h2>
             </div>
 

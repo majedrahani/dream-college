@@ -6,6 +6,7 @@ import SignUp from "../Log/SignUp";
 import CollegeDetail from "../Home/collegeDetail";
 import Colleges from "../Colleges/Colleges";
 import Error from "../Error/Error";
+import Admission from "../Admission/Admission";
 
 const router = createBrowserRouter([
     {
@@ -32,6 +33,12 @@ const router = createBrowserRouter([
             {
                 path: '/collegesPage',
                 element: <Colleges></Colleges>,
+                
+            },
+            {
+                path: '/admission',
+                element: <Admission></Admission>,
+                loader: ({params}) => fetch(`http://localhost:5000/colleges`)
                 
             },
             {
