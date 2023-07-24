@@ -7,6 +7,7 @@ import CollegeDetail from "../Home/collegeDetail";
 import Colleges from "../Colleges/Colleges";
 import Error from "../Error/Error";
 import Admission from "../Admission/Admission";
+import Apply from "../Admission/Apply";
 
 const router = createBrowserRouter([
     {
@@ -45,7 +46,12 @@ const router = createBrowserRouter([
                 path: '/colleges/:id',
                 element: <CollegeDetail></CollegeDetail>,
                 loader: ({params}) => fetch(`https://dream-college-server.vercel.app/colleges/${params.id}`)
-            }
+            },
+            {
+                path: '/apply/:id',
+                element: <Apply></Apply>,
+                loader: ({params}) => fetch(`https://dream-college-server.vercel.app/apply/${params.id}`)
+            },
         ]
     },
 ]);
