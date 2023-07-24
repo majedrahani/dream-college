@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const AdmissionCart = ({ collegeData }) => {
     const { image, collegeName,_id } = collegeData;
-    console.log(collegeData);
+    // console.log(collegeData);
     return (
         <div>
             <div className="card lg:card-side border hover:border-[#5800FF] rounded-none bg-base-100 hover:shadow-md hover:bg-blue-50">

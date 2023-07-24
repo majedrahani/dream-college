@@ -31,6 +31,11 @@ const Navber = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-none  w-52">
                             {naveItem}
+                            {
+                                user ?
+                                    <Link onClick={handleLogOut} className='bg-[#5800FF] text-white px-6 py-3'>Logout</Link> :
+                                    <Link className='bg-[#5800FF] text-white px-6 py-3' to="/login">Login</Link>
+                            }
                         </ul>
                     </div>
                     <Link to='/'>
@@ -44,14 +49,14 @@ const Navber = () => {
                 </div>
                 <div className="navbar-end">
                     {
-                        user?.displayName && 
-                        <div className=' mr-2 bg-[#00D7FF] hover:bg-[#5800FF] text-gray-600  hover:text-white px-6 py-3 uppercase btn rounded-none'>
-                        <FcApprove className='text-2xl'/> {user?.displayName}</div>
+                        user?.displayName &&
+                        <div className=' mr-2 bg-[#00D7FF] hover:bg-[#5800FF] text-gray-600  hover:text-white px-6 py-3 uppercase btn rounded-none pt-4 '>
+                            {user?.displayName}</div>
                     }
                     {
                         user ?
-                            <Link onClick={handleLogOut} className='bg-[#5800FF] text-white px-6 py-3'>Logout</Link> :
-                            <Link className='bg-[#5800FF] text-white px-6 py-3' to="/login">Login</Link>
+                            <Link onClick={handleLogOut} className='bg-[#5800FF] text-white px-6 py-3 hidden lg:block'>Logout</Link> :
+                            <Link className='bg-[#5800FF] text-white px-6 py-3 hidden lg:block' to="/login">Login</Link>
                     }
                 </div>
             </div>

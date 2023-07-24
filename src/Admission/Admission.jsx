@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import AdmissionCart from './AdmissionCart';
 
 const Admission = () => {
-    const data = useLoaderData();
+    const [data, setData] = useState();
+
+    useEffect(()=>{
+        fetch('https://dream-college-server.vercel.app/colleges')
+        .then(res => res.json())
+        .then(data => setData(data))
+    },[])
     // console.log(data);
     return (
         <div>
