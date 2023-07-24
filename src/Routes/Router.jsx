@@ -5,11 +5,13 @@ import Login from "../Log/Login";
 import SignUp from "../Log/SignUp";
 import CollegeDetail from "../Home/collegeDetail";
 import Colleges from "../Colleges/Colleges";
+import Error from "../Error/Error";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Main></Main>,
+        errorElement: <Error></Error>,
         children: [
             {
                 path: "/",
