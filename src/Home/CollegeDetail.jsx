@@ -7,11 +7,11 @@ const CollegeDetail = () => {
     const { sportsCategories, sports, researchWorks, researchHistory, image, eventsDetails, events, collegeName, admissionProcess, admissionDates, } = colleges;
     return (
         <div className='md:flex md:mx-20 my-10 gap-4 '>
-            <div className='w-1/2'>
+            <div className='lg:w-1/2'>
                 <img src={image} className='w-full' />
             </div>
             {/* Detail---------------------------------------------- */}
-            <div className='w-1/2'>
+            <div className='lg:w-1/2'>
                 <div className='w-full p-5 bg-[#5800FF]'>
                     <h2 className=' text-2xl font-bold text-center text-white'>{collegeName}</h2>
                 </div>

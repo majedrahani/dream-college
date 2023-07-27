@@ -31,7 +31,7 @@ const PopulerCollege = () => {
                 <p className=' text-center text-[13px] text-gray-600 mt-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, cupiditate.</p>
             </div>
 
-            <div className='md:grid grid-cols-3 gap-8 mx-20 mt-10'>
+            <div className='md:grid grid-cols-3 gap-8 mx-2 lg:mx-20 mt-10'>
                 {
                     colleges?.slice(0,3)?.map(college => <PopularCart
                     key={college.collegeName}

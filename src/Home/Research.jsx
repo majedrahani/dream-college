@@ -26,7 +26,7 @@ const Research = () => {
             </div>
 
             {/* research card------------------------------------- */}
-            <div className=' lg:grid grid-cols-5 mx-20 gap-2 my-10'>
+            <div className=' grid grid-cols-2 lg:grid-cols-5 lg:mx-20 gap-2 my-10'>
                 {/* cart-1 */}
                 <div className="card rounded-none p-2 hover:p-0 bg-base-100 shadow-xl">
                     <figure><img src="https://i.ibb.co/x2q3txW/6.png" alt="Shoes" /></figure>

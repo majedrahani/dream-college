@@ -26,13 +26,13 @@ const Gallery = () => {
                 <p className=' text-center text-[13px] text-gray-600 mt-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, cupiditate.</p>
             </div>
 
-            <div className='mx-20'>
-                <div className=' lg:grid grid-cols-3 gap-2 mt-10'>
+            <div className='mx-2 lg:mx-20'>
+                <div className=' grid grid-cols-2 lg:grid-cols-3 gap-2 mt-10'>
                     <img  src={gallery1} className='hover:p-5 hover:border-2 hover:border-[#5800FF] hover:bg-[#72FFFF]' />
                     <img  src={gallery2} className='hover:p-5 hover:border-2 hover:border-[#5800FF] hover:bg-[#72FFFF]' />
                     <img  src={gallery3} className='hover:p-5 hover:border-2 hover:border-[#5800FF] hover:bg-[#72FFFF]' />
                 </div>
-                <div className=' lg:grid grid-cols-5 gap-2 mt-2'>
+                <div className=' grid grid-cols-2 lg:grid-cols-5 gap-2 mt-2'>
                     <img src={gallery4} className='hover:p-3 hover:border-2 hover:border-[#5800FF]' />
                     <img src={gallery5} className='hover:p-3 hover:border-2 hover:border-[#5800FF]' />
                     <img src={gallery6} className='hover:p-3 hover:border-2 hover:border-[#5800FF]' />

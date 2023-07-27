@@ -19,7 +19,7 @@ const Admission = () => {
                 </div>
             </div>
 
-            <div className='lg:grid grid-cols-2 mx-20 gap-5 my-10'>
+            <div className='lg:grid grid-cols-2 lg:mx-20 gap-5 my-10'>
                 {
                     data?.map(collegeData => <AdmissionCart
                         key={collegeData._id}
